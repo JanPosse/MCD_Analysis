@@ -21,6 +21,21 @@ if(!require(rattle)) install.packages("rattle")
 if(!require(ranger)) install.packages("ranger")
 if(!require(randomForest)) install.packages("randomForest")
 
+  library(tidyverse)
+  library(caret)
+  library(lubridate)
+  library(ggplot2)
+  library(gridExtra)
+  library(scales)
+  library(kableExtra)
+  library(ggmap)
+  library(rvest)
+  library(timeDate)
+  library(rpart)
+  library(rattle)
+  library(ranger)
+  library(randomForest)
+
 ##########################################################
 # Overview
 ##########################################################
